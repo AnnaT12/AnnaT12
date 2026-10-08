@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="Anna, étudiante BTS SIO SISR">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1a1033"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .link { stroke: #B47BFF; stroke-opacity: .35; stroke-width: 1.5; fill: none; }
+    .node { fill: #1a1033; stroke: #B47BFF; stroke-width: 2; animation: pulse 3s ease-in-out infinite; }
+    .n2 { animation-delay: -1s; } .n3 { animation-delay: -2s; }
+    .pkt { fill: #ffffff; }
+    @keyframes pulse { 0%,100% { fill: #1a1033; } 50% { fill: #B47BFF; } }
+    @media (prefers-reduced-motion: reduce) { .node { animation: none; } .pkt { display: none; } }
+  </style>
+  <path d="M0 0H1200V160C1050 200 900 120 700 150C500 180 350 120 0 175Z" fill="url(#g)"/>
+
+  <!-- liens réseau gauche -->
+  <path id="l1" class="link" d="M70 120 L170 70 L290 105 L380 55"/>
+  <path class="link" d="M170 70 L220 20"/>
+  <!-- liens réseau droite -->
+  <path id="l2" class="link" d="M1130 120 L1030 70 L910 105 L820 55"/>
+  <path class="link" d="M1030 70 L980 20"/>
+
+  <circle class="node" cx="70" cy="120" r="6"/>
+  <circle class="node n2" cx="170" cy="70" r="6"/>
+  <circle class="node n3" cx="290" cy="105" r="6"/>
+  <circle class="node" cx="380" cy="55" r="6"/>
+  <circle class="node n2" cx="220" cy="20" r="5"/>
+  <circle class="node n3" cx="1130" cy="120" r="6"/>
+  <circle class="node" cx="1030" cy="70" r="6"/>
+  <circle class="node n2" cx="910" cy="105" r="6"/>
+  <circle class="node n3" cx="820" cy="55" r="6"/>
+  <circle class="node" cx="980" cy="20" r="5"/>
+
+  <!-- paquets -->
+  <circle class="pkt" r="3.5"><animateMotion dur="4s" repeatCount="indefinite" path="M70 120 L170 70 L290 105 L380 55"/></circle>
+  <circle class="pkt" r="3.5"><animateMotion dur="4s" begin="-2s" repeatCount="indefinite" path="M380 55 L290 105 L170 70 L70 120"/></circle>
+  <circle class="pkt" r="3.5"><animateMotion dur="4s" begin="-1s" repeatCount="indefinite" path="M1130 120 L1030 70 L910 105 L820 55"/></circle>
+  <circle class="pkt" r="3.5"><animateMotion dur="4s" begin="-3s" repeatCount="indefinite" path="M820 55 L910 105 L1030 70 L1130 120"/></circle>
+
+  <text x="600" y="76" text-anchor="middle" dominant-baseline="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#ffffff">Anna</text>
+  <text x="600" y="120" text-anchor="middle" dominant-baseline="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#ffffff">Étudiante BTS SIO SISR</text>
+</svg>

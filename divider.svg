@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="img" aria-label="">
+  <style>
+    .cable { stroke: #8B5CF6; stroke-opacity: .4; stroke-width: 2; }
+    .dot { fill: #8B5CF6; animation: blink 4s ease-in-out infinite; }
+    .d2 { animation-delay: -1.3s; } .d3 { animation-delay: -2.6s; }
+    .pkt { fill: #B47BFF; }
+    @keyframes blink { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .dot { animation: none; } .pkt { display: none; } }
+  </style>
+  <line class="cable" x1="0" y1="12" x2="1200" y2="12"/>
+  <circle class="dot" cx="300" cy="12" r="5"/>
+  <circle class="dot d2" cx="600" cy="12" r="5"/>
+  <circle class="dot d3" cx="900" cy="12" r="5"/>
+  <circle class="pkt" cy="12" r="4"><animate attributeName="cx" from="0" to="1200" dur="6s" repeatCount="indefinite"/></circle>
+</svg>

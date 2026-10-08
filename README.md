@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Bandeau Anna" width="100%"/>
+<img src="banner.svg" alt="Bandeau Anna" width="100%"/>
 
 **🌱 En reconversion vers l'informatique · 🎓 BTS SIO option SISR · 🤝 Alternance chez Koesio**
 
@@ -8,7 +8,7 @@
 
 </div>
 
-<img src="assets/divider.svg" alt="" width="100%"/>
+<img src="divider.svg" alt="" width="100%"/>
 
 ## 👋 À propos
 
@@ -19,7 +19,7 @@ Depuis, j'apprends **en autonomie** (réseaux, Windows Server, Linux, Microsoft 
 
 Ce que mon parcours m'a appris : **rester calme sous pression, expliquer simplement, et prendre soin des gens qu'on dépanne.** 💜
 
-<img src="assets/divider.svg" alt="" width="100%"/>
+<img src="divider.svg" alt="" width="100%"/>
 
 ## 🔭 En ce moment
 
@@ -28,7 +28,7 @@ Ce que mon parcours m'a appris : **rester calme sous pression, expliquer simplem
 - 🐧 Administration **Linux** sous Debian : utilisateurs, SSH, Apache, cron, gestion centralisée des comptes
 - ☁️ Découverte de **Microsoft 365**, Entra ID et Intune
 
-<img src="assets/divider.svg" alt="" width="100%"/>
+<img src="divider.svg" alt="" width="100%"/>
 
 ## 🛠️ Compétences & outils
 
@@ -49,7 +49,7 @@ Ce que mon parcours m'a appris : **rester calme sous pression, expliquer simplem
 ![GLPI](https://img.shields.io/badge/GLPI-6D28D9?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git%20%26%20GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)
 
-<img src="assets/divider.svg" alt="" width="100%"/>
+<img src="divider.svg" alt="" width="100%"/>
 
 ## 🧪 Projets & labs
 
@@ -63,7 +63,7 @@ Ce que mon parcours m'a appris : **rester calme sous pression, expliquer simplem
 
 > 📌 *Chaque projet aura bientôt sa documentation détaillée dans un dépôt dédié.*
 
-<img src="assets/divider.svg" alt="" width="100%"/>
+<img src="divider.svg" alt="" width="100%"/>
 
 ## 🎯 Objectifs
 
@@ -73,7 +73,7 @@ Ce que mon parcours m'a appris : **rester calme sous pression, expliquer simplem
 - [ ] Consolider mes bases réseaux (cursus CCNA en cours d'étude)
 - [ ] Monter en compétences sur l'administration système et la cybersécurité
 
-<img src="assets/divider.svg" alt="" width="100%"/>
+<img src="divider.svg" alt="" width="100%"/>
 
 ## 📫 Me retrouver
 
@@ -87,4 +87,4 @@ Ce que mon parcours m'a appris : **rester calme sous pression, expliquer simplem
 
 </div>
 
-<img src="assets/footer.svg" alt="" width="100%"/>
+<img src="footer.svg" alt="" width="100%"/>

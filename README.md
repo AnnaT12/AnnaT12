@@ -1,4 +1,4 @@
-<!-- ═════════════ Bandeau ═════════════ -->
+(https://github.com/AnnaT12/AnnaT12/issues/1#issue-5762084262)
 <div align="center">
 
 <img src="assets/banner.svg" alt="Bandeau Anna" width="100%"/>
